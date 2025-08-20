@@ -3,7 +3,6 @@ const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <div className="footer">
-            Created By Mridul
             <i class="fa-solid fa-heart"></i>
             <i class="fa-solid fa-copyright"></i>
             {year}
@@ -13,5 +12,6 @@ const Footer = () => {
         </div>
     );
 };
+
 
 export default Footer;
